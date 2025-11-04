@@ -7,13 +7,14 @@ A real-time vehicle detection and distance estimation system using dual YOLO mod
 
 ## Features
 
-- 🚗 **Dual YOLO Detection**: License plate detection (near) + vehicle body detection (far)
-- 📏 **Adaptive Learning**: Automatically learns and calibrates car widths for improved distance estimation
-- 🎯 **Smart Filtering**: Multi-filter system to remove oncoming traffic, crossing traffic, and tracking errors
-- 🔢 **Vehicle Tracking**: Assigns unique IDs and tracks vehicles across frames
-- ⏱️ **Minimum Dwell Time**: 2-second filter to eliminate brief false detections
-- 🖥️ **Cross-Platform GPU**: Automatic GPU acceleration (CUDA for NVIDIA, MPS for Apple Silicon)
-- 📊 **CSV Export**: Frame-by-frame distance data export for analysis
+- **Dual YOLO Detection**: License plate detection (near) + vehicle body detection (far)
+- **Adaptive Learning**: Automatically learns and calibrates car widths for improved distance estimation
+- **Smart Filtering**: Multi-filter system to remove oncoming traffic, crossing traffic, and tracking errors
+- **Vehicle Tracking**: Assigns unique IDs and tracks vehicles across frames
+- **Minimum Dwell Time**: 2-second filter to eliminate brief false detections
+- **Cross-Platform GPU**: Automatic GPU acceleration (CUDA for NVIDIA, MPS for Apple Silicon)
+- **CSV Export**: Frame-by-frame distance data export for analysis
+- **Model Included**: Both the models of license plate detection (self-trained) and vehicle detection were included. 
 
 
 ## Requirements
@@ -112,7 +113,6 @@ I have never tested the script on a Windows platform with RTX graphic cards, but
 - Intersection scenarios with stopped traffic may produce false detections
 - Requires camera calibration (focal length) for accurate distance estimation
 - Performance varies with video quality and lighting conditions. Significant sun glare may interfere with the vehicle/plate detection. 
-- License plate model must be trained separately
 
 ## CSV Output Format
 
