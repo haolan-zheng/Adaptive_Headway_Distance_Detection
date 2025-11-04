@@ -5,6 +5,34 @@ A real-time vehicle detection and distance estimation system using dual YOLO mod
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Python](https://img.shields.io/badge/python-3.8+-green.svg)
 
+## Quick Start (Models Included!)
+
+This repository includes pre-trained models - **no training required!**
+
+1. Clone the repository:
+```bash
+git clone https://github.com/YOUR_USERNAME/Adaptive_Headway_Distance_Detection.git
+cd Adaptive_Headway_Distance_Detection
+```
+
+2. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+3. Update video path in script and run:
+```bash
+python Adaptive_Headway_Distance_Detection.py
+```
+
+That's it! The models are ready to use.
+
+### Included Models
+
+- **yolov8n.pt** - YOLOv8 nano (6MB) - General vehicle detection
+- **best.pt** - Custom license plate detector - Trained on [describe your dataset]
+
+
 ## Features
 
 - **Dual YOLO Detection**: License plate detection (near) + vehicle body detection (far)
