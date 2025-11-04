@@ -30,7 +30,7 @@ That's it! The models are ready to use.
 ### Included Models
 
 - **yolov8n.pt** - YOLOv8 nano (6MB) - General vehicle detection
-- **best.pt** - Custom license plate detector - Trained on [describe your dataset]
+- **best.pt** - Custom license plate detector - Trained on self-controlled dashcam
 
 
 ## Features
