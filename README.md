@@ -213,11 +213,6 @@ venv/
 *.avi
 *.csv
 
-# Models (too large for git)
-*.pt
-*.pth
-models/
-
 # IDE
 .vscode/
 .idea/
